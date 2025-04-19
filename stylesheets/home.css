@@ -56,3 +56,10 @@ span{
   font-weight: 600;
 
 }
+.client-logo{
+  height: 80px;
+}
+.client-logo:hover{
+  transform: scale(1.1);
+  transition: .2s ease-in-out;
+}
