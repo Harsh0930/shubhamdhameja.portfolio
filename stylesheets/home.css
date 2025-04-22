@@ -63,3 +63,7 @@ span{
   transform: scale(1.1);
   transition: .2s ease-in-out;
 }
+h3{
+  font-family: 'Outfits',sans-serif;
+  font-weight: 600;
+}
