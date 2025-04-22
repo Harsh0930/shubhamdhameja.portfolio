@@ -51,19 +51,28 @@ span{
   color: #6e6e6e;
   font-weight: 400;
 }
-.ourclient-heading{
+.whatwedo-headline{
   font-family: 'Outfit',sans-serif;
   font-weight: 600;
-
 }
-.client-logo{
-  height: 80px;
+.sub-col:hover{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  transition: .2s ease-in;
+  border-radius: 5px;
 }
-.client-logo:hover{
-  transform: scale(1.1);
-  transition: .2s ease-in-out;
-}
-h3{
-  font-family: 'Outfits',sans-serif;
+.service-headline{
+  font-family: 'Outfit',sans-serif;
   font-weight: 600;
 }
+.service-subtext{
+  font-family: 'Switzer',sans-serif;
+  font-weight: 300;
+}
+.feature-work-headline{
+  font-family: 'Outfit',sans-serif;
+  font-weight: 600;
+}
+.work-img:hover{
+    transform: scale(1.025);
+    transition: .2s ease-in;
+  }
