@@ -76,3 +76,25 @@ span{
     transform: scale(1.025);
     transition: .2s ease-in;
   }
+  .footer-icons{
+    font-size: 20px;
+    color: #000000;
+  }
+  .footer-list-link{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Switzer',sans-serif;
+  }
+  .footer-list-link:hover{
+      color: #6e6e6e;
+      text-decoration: underline;
+  }
+  .copyright-text,.copyright-link{
+    font-family: 'Switzer',sans-serif;
+    color: #000000;
+    font-size: 14px;
+  }
+  .copyright-link:hover{
+    color: #6e6e6e;
+  }
