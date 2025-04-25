@@ -56,9 +56,10 @@ span{
   font-weight: 600;
 }
 .sub-col:hover{
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
   transition: .2s ease-in;
-  border-radius: 5px;
+  transform: scale(1.025);
+
 }
 .service-headline{
   font-family: 'Outfit',sans-serif;
@@ -75,6 +76,22 @@ span{
 .work-img:hover{
     transform: scale(1.025);
     transition: .2s ease-in;
+  }
+  .howework-col:hover{
+    transform: scale(1.025);
+    transition: .2s ease-in;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  }
+  .howwework-headline{
+    font-family: 'Outfit',sans-serif;
+    font-weight: 600;
+  }
+  .howwework-subheadline{
+    font-family: 'Outfit',sans-serif;
+    font-weight: 400;
+  }
+  .howwework-description{
+    font-family: 'Switzer',sans-serif;
   }
   .footer-icons{
     font-size: 20px;
@@ -97,4 +114,37 @@ span{
   }
   .copyright-link:hover{
     color: #6e6e6e;
+  }
+  @media only screen and (max-width:320px){
+    .aboutus-sub-heading{
+      font-size: 18px;
+    }
+  }
+  @media only screen and (min-width:321px) and (max-width:768px) {
+    .aboutus-sub-heading{
+      font-size: 16px;
+    }
+    .aboutus-para{
+      font-size: 15px;
+    }
+    .service-headline,.howwework-subheadline  {
+      font-size: 18px;
+    }
+    .service-subtext,.howwework-description{
+      font-size: 15px;
+      font-weight: 300;
+    }
+    .footer-icons{
+      font-size: 12px;
+    }
+    .footer-list-link{
+      font-size: 12px;
+    }
+    .copyright-text,.copyright-link{
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+  @media only screen and (min-width:769px){
+
   }
