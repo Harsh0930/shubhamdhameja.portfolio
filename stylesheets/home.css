@@ -9,7 +9,7 @@
 
 }
 body{
-  background-color: #FFFBF6;
+  /* background-color: #FFFBF6; */
   letter-spacing: 1px;
 }
 .hero-section{
@@ -41,11 +41,7 @@ body{
 }
 .aboutus-section{
   background-color: #fffbf6;
-  background-image: url('/assets/images/bg-pattern-one.jpeg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: multiply;
+
 }
 .aboutus-headline{
   font-family: 'Outfit',sans-serif;
@@ -72,11 +68,7 @@ span{
 }
 .whatwedo-section{
   background-color: #4F5B4E;
-  background-image: url('/assets/images/bg-pattern-two.jpeg');
-  /* background-position: center; */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-blend-mode: multiply;
+ 
 }
 .whatwedo-headline{
   font-family: 'Outfit',sans-serif;
@@ -104,10 +96,7 @@ span{
 }
 .feature-work-section{
   background-color: #2F2F2F;
-  background-image: url('/assets/images/bg-pattern-three.jpeg');
-  background-repeat: no-repeat;
-  background-blend-mode: multiply;
-  background-size: cover;
+
 }
 .feature-work-headline{
   font-family: 'Outfit',sans-serif;
@@ -123,11 +112,7 @@ span{
   }
   .howwework-section{
     background-color:#4F5B4E;
-    background-image: url('/assets/images/bg-pattern-two.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-blend-mode: multiply;
-    background-position: auto;
+  
   }
   .howework-col:hover{
     transform: scale(1.025);
