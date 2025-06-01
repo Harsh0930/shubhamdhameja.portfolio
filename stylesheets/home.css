@@ -9,11 +9,12 @@
 
 }
 body{
-  /* background-color: #FFFBF6; */
+  background-color: #FFFBF6;
   letter-spacing: 1px;
 }
 .hero-section{
   background-color: #292728;
+  
 }
 .main-container{
   border: 1px solid black;
@@ -26,6 +27,12 @@ body{
 }
 .btn{
   background-color: #FFFBF6;
+}
+.btn:hover{
+  background-color: #292728;
+  border-color: #FFFBF6;
+  color: #FFFBF6;
+  transition: .2s ease-in;
 }
 .nav-link:hover{
   color: #6e6e6e;
@@ -47,15 +54,9 @@ body{
   font-family: 'Outfit',sans-serif;
   color: #4F5B4E;
   font-weight: 600;
-}
-span{
-  color: black;
-  -webkit-text-fill-color: #FFFBF6; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color:#4F5B4E;
-}
+} 
 .aboutus-sub-heading{
-  font-family: 'Switzer',sans-serif;
+  font-family: 'Britney Regular',sans-serif;
   color: #4F5B4E;
   font-size: 1.5em;
   font-weight: 600;
@@ -95,12 +96,19 @@ span{
   color: #7E8A7E;
 }
 .feature-work-section{
-  background-color: #2F2F2F;
-
+  background-color: #4F5B4E;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .feature-work-headline{
   font-family: 'Outfit',sans-serif;
   font-weight: 600;
+  color: #FFFBF6;
+}
+.project-name{
+  font-family: 'Outfit',sans-serif;
+  font-weight: 500;
   color: #FFFBF6;
 }
 .arrow-right{
@@ -111,9 +119,9 @@ span{
     transition: .2s ease-in;
   }
   .howwework-section{
-    background-color:#4F5B4E;
-  
+    background-color:#FFFBF6;
   }
+
   .howework-col:hover{
     transform: scale(1.025);
     transition: .2s ease-in;
@@ -122,7 +130,7 @@ span{
   .howwework-headline{
     font-family: 'Outfit',sans-serif;
     font-weight: 600;
-    color: #FFFBF6;
+    color: #4F5B4E;
   }
   .arrow-down{
     color: #7E8A7E;
@@ -130,22 +138,22 @@ span{
   .howwework-subheadline{
     font-family: 'Outfit',sans-serif;
     font-weight: 500;
-    color: #fffbf6;
+    color: #4F5B4E;
   }
   .howwework-description{
     font-family: 'Switzer',sans-serif;
     font-weight: 300;
-    color: #FFFBF6;
+    color: #7E8A7E;
   }
   .footer-section{
     background-color: #292728;
   }
   .footer-icons{
     font-size: 20px;
-    color: #000000;
+    color: #FFFBF6;
   }
   .footer-list-link{
-    color: #000000;
+    color: #FFFBF6;
     text-decoration: none;
     font-size: 18px;
     font-family: 'Switzer',sans-serif;
@@ -156,7 +164,7 @@ span{
   }
   .copyright-text,.copyright-link{
     font-family: 'Switzer',sans-serif;
-    color: #000000;
+    color: #FFFBF6;
     font-size: 14px;
   }
   .copyright-link:hover{
