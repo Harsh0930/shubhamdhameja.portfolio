@@ -25,9 +25,11 @@ body {
 }
 .btn {
   background-color: #fffbf6;
+  font-family: 'Switzer','sans-serif';
+  font-weight: 500;
 }
 .btn:hover {
-  background-color: #292728;
+  background-color: transparent;
   border-color: #fffbf6;
   color: #fffbf6;
   transition: 0.2s ease-in;
